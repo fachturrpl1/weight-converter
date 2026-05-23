@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weight Converter</title>
+    </head>
+    <body>
+        <form>
+            <label>Choose units:</label>
+            <select id="units">
+                <option value="ukg">Kilograms</option>
+                <option value="ulb">Pounds</option>
+                <option value="ust">Stones</option>
+                <option value="uoz">Ounces</option>
+                <option value="ug">Grams</option>
+            </select>
+        </form>
+        <form action="weight">
+                <label for="weight">Enter weight:</label>
+                <input type="number" name="weight" required>
+        </form>
+
+        <div id="results-container">
+            <div id="result">
+                <span>Kilograms (KG)</span>
+                <p id="kg">0</p>
+            </div>
+            <div id="result">
+                <span>Pounds (LB)</span>
+                <p id="lb">0</p>
+            </div>
+            <div id="result">
+                <span>Stones (ST)</span>
+                <p id="st">0</p>
+            </div>
+            <div id="result">
+                <span>Ounces (OZ)</span>
+                <p id="oz">0</p>
+            </div>
+            <div id="result">
+                <span>Grams (G)</span>
+                <p id="g">0</p>
+            </div>
+        </div>
+    </body>
+</html>
